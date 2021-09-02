@@ -7,13 +7,17 @@ import { AppComponent } from './app.component';
 import { TeamComponent } from './pages/team/team.component';
 import { AboutusComponent } from './pages/aboutus/aboutus.component';
 import { HomeComponent } from './pages/home/home.component';
+import { VerEspecialidadComponent } from './pages/ver-especialidad/ver-especialidad.component';
+import { RegistrarHorarioComponent } from './pages/registrar-horario/registrar-horario.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TeamComponent,
     AboutusComponent,
-    HomeComponent
+    HomeComponent,
+    VerEspecialidadComponent,
+    RegistrarHorarioComponent
   ],
   imports: [
     BrowserModule,
