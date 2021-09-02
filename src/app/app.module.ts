@@ -10,6 +10,8 @@ import { HomeComponent } from './pages/home/home.component';
 import { EmpleadoListaComponent } from './empleado/empleado-lista/empleado-lista.component';
 import { EmpleadoRegistrarComponent } from './empleado/empleado-registrar/empleado-registrar.component';
 import { EmpleadoEdicionComponent } from './empleado/empleado-edicion/empleado-edicion.component';
+import { VerEspecialidadComponent } from './pages/ver-especialidad/ver-especialidad.component';
+import { RegistrarHorarioComponent } from './pages/registrar-horario/registrar-horario.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { EmpleadoEdicionComponent } from './empleado/empleado-edicion/empleado-e
     HomeComponent,
     EmpleadoListaComponent,
     EmpleadoRegistrarComponent,
-    EmpleadoEdicionComponent
+    EmpleadoEdicionComponent,
+    VerEspecialidadComponent,
+    RegistrarHorarioComponent
   ],
   imports: [
     BrowserModule,
