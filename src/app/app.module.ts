@@ -7,13 +7,19 @@ import { AppComponent } from './app.component';
 import { TeamComponent } from './pages/team/team.component';
 import { AboutusComponent } from './pages/aboutus/aboutus.component';
 import { HomeComponent } from './pages/home/home.component';
+import { EmpleadoListaComponent } from './empleado/empleado-lista/empleado-lista.component';
+import { EmpleadoRegistrarComponent } from './empleado/empleado-registrar/empleado-registrar.component';
+import { EmpleadoEdicionComponent } from './empleado/empleado-edicion/empleado-edicion.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TeamComponent,
     AboutusComponent,
-    HomeComponent
+    HomeComponent,
+    EmpleadoListaComponent,
+    EmpleadoRegistrarComponent,
+    EmpleadoEdicionComponent
   ],
   imports: [
     BrowserModule,
