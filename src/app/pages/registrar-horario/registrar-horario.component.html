@@ -1,1 +1,54 @@
-<p>registrar-horario works!</p>
+<div class="login-dark">
+    <div class="row">
+        <div class="col-3"></div>
+        <div class="col-6">
+
+        </div>
+        <div class="col-3"></div>
+
+    </div>
+    <form method="post" style="background-color: rgba(255,255,255,0.9);">
+        <h2 class="text-center" style="color: #ffa555;font-size: 26px; margin-bottom:20px;">Registrar<br>Horario</h2>
+        <div class="form-group">
+            <div class="form-check form-check-inline">
+                <input id="chk1" type="checkbox">
+                <label for="chk1" style="color: black;">Lunes</label> |
+                <input id="chk2" type="checkbox">
+                <label for="chk2" style="color: black;">Martes</label> |
+                <input id="chk3" type="checkbox">
+                <label for="chk3" style="color: black;">Miercoles</label>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="form-check form-check-inline">
+                <input id="chk4" type="checkbox">
+                <label for="chk4" style="color: black;">Jueves</label> |
+                <input id="chk5" type="checkbox">
+                <label for="chk5" style="color: black;">Viernes</label> |
+                <input id="chk6" type="checkbox">
+                <label for="chk6" style="color: black;">Sábado</label> |
+                <input id="chk7" type="checkbox">
+                <label for="chk7" style="color: black;">Domingo</label>
+            </div>
+        </div>
+        <div class="form-group">
+            <label style="color: black;">Doctor:</label>
+            <select class="form-control form-control-sm" style="color: rgb(0,0,0);" formControlName="doctor" placeholder="Doctor">
+                  <option value="">Seleccione</option>
+                  <option value="1">Carlos Vasquez</option>
+                  <option value="2">Aldo Galvez</option>
+              </select>
+        </div>
+        <div class="form-group">
+            <label style="color: black;">Especialidad:</label>
+            <select class="form-control form-control-sm" style="color: rgb(0,0,0);" formControlName="especialidad" placeholder="Especialidad">
+                  <option value="">Seleccione</option>
+                  <option value="1">Pediatría</option>
+                <option value="2">Cardiología</option>
+          </select>
+        </div>
+        <div class="form-group text-center">
+            <button class="btn btn-primary" type="submit" style="background-color: #ffa555;font-weight: normal;">Registrar</button>
+        </div>
+    </form>
+</div>

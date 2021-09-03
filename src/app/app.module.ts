@@ -12,6 +12,7 @@ import { EmpleadoRegistrarComponent } from './empleado/empleado-registrar/emplea
 import { EmpleadoEdicionComponent } from './empleado/empleado-edicion/empleado-edicion.component';
 import { VerEspecialidadComponent } from './pages/ver-especialidad/ver-especialidad.component';
 import { RegistrarHorarioComponent } from './pages/registrar-horario/registrar-horario.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { RegistrarHorarioComponent } from './pages/registrar-horario/registrar-h
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
