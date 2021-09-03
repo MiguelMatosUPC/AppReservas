@@ -13,7 +13,7 @@ import { EmpleadoEdicionComponent } from './empleado/empleado-edicion/empleado-e
 import { VerEspecialidadComponent } from './pages/ver-especialidad/ver-especialidad.component';
 import { RegistrarHorarioComponent } from './pages/registrar-horario/registrar-horario.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { HomePacienteComponent } from './app/pages/home-paciente/home-paciente.component';
+import { HomePacienteComponent } from './pages/home-paciente/home-paciente.component';
 
 @NgModule({
   declarations: [
