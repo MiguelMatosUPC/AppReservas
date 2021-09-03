@@ -1,0 +1,58 @@
+<div class="container" style="margin-top: 90px;">
+    <div class="row justify-content-center" style="margin-bottom: -15px;">
+        <div style="background-image: none;width: 95%;background-color: #0f91ee;padding: 40px;border-radius: 4px;box-shadow: 3px 3px 4px rgba(0,0,0,0.2);height: auto;">
+            <h2 class="text-center" style="color: white;font-size: 26px; margin-bottom:20px;"><strong>Registrar nuevo paciente</strong></h2>
+            <div class="row justify-content-center" style="margin-bottom: -15px;">
+                <div class="col-6">
+                    <form [formGroup]="pacienteForm">
+                        <div class="form-group">
+                            <input formControlName="nombres" class="form-control" type="text" name="name" placeholder="Nombres" autocomplete="off" style="color: rgb(0,0,0);"><small class="form-text text-danger d-none">Ingrese sus nombres</small>
+                        </div>
+                        <div class="form-group">
+                            <input formControlName="apellidos" class="form-control" type="text" name="name" placeholder="Apellidos" autocomplete="off" style="color: rgb(0,0,0);"><small class="form-text text-danger d-none">Ingrese sus apellidos</small>
+                        </div>
+                        <div class="form-group">
+                            <select formControlName="sexo" class="form-control form-control-sm" style="color: rgb(0,0,0);">
+                                <option value="" selected=""></option>
+                                <option value="M">Masculino</option>
+                                <option value="F">Femenino</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <select formControlName="tipo_documento" class="form-control form-control-sm" style="color: rgb(0,0,0);">
+                                <option value="" selected=""></option>
+                                <option value="1">DNI</option>
+                                <option value="2">Carnet Extrangería</option>
+                                <option value="3">Pasaporte</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <input formControlName="numero_documento" class="form-control" type="text" name="name" placeholder="Número" autocomplete="off" style="color: rgb(0,0,0);"><small class="form-text text-danger d-none">Ingrese el número de documento</small>
+                        </div>
+                        <div class="form-group">
+                            <input formControlName="telefono" class="form-control" type="text" name="name" placeholder="Teléfono" autocomplete="off" style="color: rgb(0,0,0);"><small class="form-text text-danger d-none">Ingrese su teléfono</small>
+                        </div>
+                        <div class="form-group">
+                            <input formControlName="email" class="form-control" type="text" name="name" placeholder="Email" autocomplete="off" style="color: rgb(0,0,0);"><small class="form-text text-danger d-none">Ingrese su email</small>
+                        </div>
+                        <div class="form-group">
+                            <input formControlName="password" class="form-control" type="text" name="name" placeholder="Crear una contraseña" autocomplete="off" style="color: rgb(0,0,0);"><small class="form-text text-danger d-none">Ingrese su nueva contraseña</small>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="row justify-content-center" style="margin-bottom: -15px;">
+                                <div class="col-sm-3">
+                                    <a routerLink="/home" class="btn btn-dark">Guardar</a>
+                                </div>
+                                <div class="col-sm-3">
+                                    <a routerLink="/home-paciente" class="btn btn-dark">Cancelar</a>
+                                </div>         
+                            </div>
+                        </div>                       
+                    </form>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>

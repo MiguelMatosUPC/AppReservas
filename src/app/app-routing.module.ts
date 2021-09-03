@@ -1,7 +1,6 @@
 import { NgModule } from "@angular/core";
 import { RouterModule, Routes } from "@angular/router";
 
-
 import { TeamComponent } from './pages/team/team.component';
 import { AboutusComponent } from './pages/aboutus/aboutus.component';
 import { HomeComponent } from './pages/home/home.component';
@@ -11,6 +10,8 @@ import { EmpleadoEdicionComponent } from "./empleado/empleado-edicion/empleado-e
 import { VerEspecialidadComponent } from './pages/ver-especialidad/ver-especialidad.component';
 import { RegistrarHorarioComponent } from './pages/registrar-horario/registrar-horario.component';
 import { HomePacienteComponent } from "./pages/home-paciente/home-paciente.component";
+import { PacienteRegistrarComponent } from "./pages/paciente/paciente-registrar/paciente-registrar.component";
+import { PacienteIngresarComponent } from "./pages/paciente/paciente-ingresar/paciente-ingresar.component";
 
 const routes: Routes = [
     {path:'',redirectTo:'home',pathMatch:'full'},
@@ -18,6 +19,8 @@ const routes: Routes = [
     {path:'aboutus',component:AboutusComponent},
     {path:'team',component:TeamComponent},
     {path:'home-paciente',component:HomePacienteComponent},
+    {path:'paciente-registrar',component:PacienteRegistrarComponent},
+    {path:'paciente-ingresar',component:PacienteIngresarComponent},
     {path:'empleado/lista',component:EmpleadoListaComponent},
     {path:'empleado/registrar',component:EmpleadoRegistrarComponent},
     {path:'empleado/:empleadoId',component:EmpleadoEdicionComponent},

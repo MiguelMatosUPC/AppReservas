@@ -14,6 +14,8 @@ import { VerEspecialidadComponent } from './pages/ver-especialidad/ver-especiali
 import { RegistrarHorarioComponent } from './pages/registrar-horario/registrar-horario.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HomePacienteComponent } from './pages/home-paciente/home-paciente.component';
+import { PacienteRegistrarComponent } from './pages/paciente/paciente-registrar/paciente-registrar.component';
+import { PacienteIngresarComponent } from './pages/paciente/paciente-ingresar/paciente-ingresar.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { HomePacienteComponent } from './pages/home-paciente/home-paciente.compo
     EmpleadoEdicionComponent,
     VerEspecialidadComponent,
     RegistrarHorarioComponent,
-    HomePacienteComponent
+    HomePacienteComponent,
+    PacienteRegistrarComponent,
+    PacienteIngresarComponent
   ],
   imports: [
     BrowserModule,
