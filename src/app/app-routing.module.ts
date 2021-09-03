@@ -10,12 +10,14 @@ import { EmpleadoRegistrarComponent } from "./empleado/empleado-registrar/emplea
 import { EmpleadoEdicionComponent } from "./empleado/empleado-edicion/empleado-edicion.component";
 import { VerEspecialidadComponent } from './pages/ver-especialidad/ver-especialidad.component';
 import { RegistrarHorarioComponent } from './pages/registrar-horario/registrar-horario.component';
+import { HomePacienteComponent } from "./pages/home-paciente/home-paciente.component";
 
 const routes: Routes = [
     {path:'',redirectTo:'home',pathMatch:'full'},
     {path:'home',component:HomeComponent},
     {path:'aboutus',component:AboutusComponent},
     {path:'team',component:TeamComponent},
+    {path:'home-paciente',component:HomePacienteComponent},
     {path:'empleado/lista',component:EmpleadoListaComponent},
     {path:'empleado/registrar',component:EmpleadoRegistrarComponent},
     {path:'empleado/:empleadoId',component:EmpleadoEdicionComponent},
