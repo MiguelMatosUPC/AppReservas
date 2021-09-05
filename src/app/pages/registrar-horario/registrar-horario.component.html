@@ -42,11 +42,12 @@
         <div class="form-group">
             <label style="color: black;">Especialidad:</label>
             <select class="form-control form-control-sm" style="color: rgb(0,0,0);" formControlName="especialidad" placeholder="Especialidad">
-                  <option value="">Seleccione</option>
-                  <option value="1">Pediatría</option>
+                <option value="">Seleccione</option>
+                <option value="1">Pediatría</option>
                 <option value="2">Cardiología</option>
-          </select>
+            </select>
         </div>
+        <input mdc-datetime-picker="" date="true" time="true" type="text" id="datetime" placeholder="Date" show-todays-date="" minutes="true" min-date="date" show-icon="true" ng-model="dateTime" class=" dtp-no-msclear dtp-input md-input">
         <div class="form-group text-center">
             <button class="btn btn-primary" type="submit" style="background-color: #ffa555;font-weight: normal;">Registrar</button>
         </div>
