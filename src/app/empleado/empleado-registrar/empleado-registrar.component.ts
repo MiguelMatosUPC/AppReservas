@@ -9,11 +9,19 @@ import { FormBuilder, Validators } from '@angular/forms';
 export class EmpleadoRegistrarComponent implements OnInit {
 
   empleadoForm = this.fb.group({
-    dni: ['', Validators.required],
+    tipo_doc: ['', Validators.required],
+    nro_doc: ['', Validators.required],
     nombre: ['', Validators.required],
     apePaterno: ['', Validators.required],
     apeMaterno: ['', Validators.required],
-    especialidad: ['', Validators.required]
+    sexo: ['', Validators.required],
+    telefono: ['', Validators.required],
+    cargo: ['', Validators.required],
+    especialidad: ['', Validators.required],
+    email: ['', Validators.required],
+    usuario: ['', Validators.required],
+    password_1: ['', Validators.required],
+    password_2: ['', Validators.required]
   });
 
   constructor(private fb: FormBuilder) { }
