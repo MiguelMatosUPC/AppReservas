@@ -12,6 +12,9 @@ import { RegistrarHorarioComponent } from './pages/registrar-horario/registrar-h
 import { HomePacienteComponent } from "./pages/home-paciente/home-paciente.component";
 import { PacienteRegistrarComponent } from "./pages/paciente/paciente-registrar/paciente-registrar.component";
 import { PacienteIngresarComponent } from "./pages/paciente/paciente-ingresar/paciente-ingresar.component";
+import { CuidaComponent } from './pages/citamedica/reservas/cuida/cuida.component';
+import { CuraComponent } from './pages/citamedica/reservas/cura/cura.component';
+import { ReservaIngresarComponent } from './pages/citamedica/reservas/reserva-ingresar/reserva-ingresar.component';
 
 const routes: Routes = [
     {path:'',redirectTo:'home',pathMatch:'full'},
@@ -25,7 +28,10 @@ const routes: Routes = [
     {path:'empleado/registrar',component:EmpleadoRegistrarComponent},
     {path:'empleado/:empleadoId',component:EmpleadoEdicionComponent},
     {path:'especialidades',component:VerEspecialidadComponent},
-    {path:'horario/registrar',component:RegistrarHorarioComponent}
+    {path:'horario/registrar',component:RegistrarHorarioComponent},
+    {path:'citamedica/reservas/cuida',component:CuidaComponent},
+    {path:'citamedica/reservas/cura',component:CuraComponent},
+    {path:'citamedica/reservas/reserva-ingresar',component:ReservaIngresarComponent}
 ];
 
 @NgModule({

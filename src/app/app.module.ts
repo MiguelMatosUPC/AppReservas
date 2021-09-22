@@ -17,6 +17,9 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HomePacienteComponent } from './pages/home-paciente/home-paciente.component';
 import { PacienteRegistrarComponent } from './pages/paciente/paciente-registrar/paciente-registrar.component';
 import { PacienteIngresarComponent } from './pages/paciente/paciente-ingresar/paciente-ingresar.component';
+import { CuraComponent } from './pages/citamedica/reservas/cura/cura.component';
+import { CuidaComponent } from './pages/citamedica/reservas/cuida/cuida.component';
+import { ReservaIngresarComponent } from './pages/citamedica/reservas/reserva-ingresar/reserva-ingresar.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +34,10 @@ import { PacienteIngresarComponent } from './pages/paciente/paciente-ingresar/pa
     RegistrarHorarioComponent,
     HomePacienteComponent,
     PacienteRegistrarComponent,
-    PacienteIngresarComponent
+    PacienteIngresarComponent,
+    CuraComponent,
+    CuidaComponent,
+    ReservaIngresarComponent
   ],
   imports: [
     BrowserModule,
